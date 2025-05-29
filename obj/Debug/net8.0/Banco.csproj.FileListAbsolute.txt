@@ -1,8 +1,0 @@
-C:\Users\Alunos\RiderProjects\Banco\Banco\obj\Debug\net8.0\Banco.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Alunos\RiderProjects\Banco\Banco\obj\Debug\net8.0\Banco.AssemblyInfoInputs.cache
-C:\Users\Alunos\RiderProjects\Banco\Banco\obj\Debug\net8.0\Banco.AssemblyInfo.cs
-C:\Users\Alunos\RiderProjects\Banco\Banco\obj\Debug\net8.0\Banco.csproj.CoreCompileInputs.cache
-C:\Users\Alunos\RiderProjects\Banco\Banco\obj\Debug\net8.0\Banco.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Alunos\RiderProjects\Banco\Banco\obj\Debug\net8.0\Banco.RazorAssemblyInfo.cache
-C:\Users\Alunos\RiderProjects\Banco\Banco\obj\Debug\net8.0\Banco.RazorAssemblyInfo.cs
-C:\Users\Alunos\RiderProjects\Banco\Banco\obj\Debug\net8.0\Banco.csproj.AssemblyReference.cache
