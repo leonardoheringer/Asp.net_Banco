@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\DigiBank.csproj": {}
+    "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\Asp.net_Banco\\DigiBank\\DigiBank\\DigiBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\DigiBank.csproj": {
+    "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\Asp.net_Banco\\DigiBank\\DigiBank\\DigiBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\DigiBank.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\Asp.net_Banco\\DigiBank\\DigiBank\\DigiBank.csproj",
         "projectName": "DigiBank",
-        "projectPath": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\DigiBank.csproj",
+        "projectPath": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\Asp.net_Banco\\DigiBank\\DigiBank\\DigiBank.csproj",
         "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\obj\\",
+        "outputPath": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\Asp.net_Banco\\DigiBank\\DigiBank\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

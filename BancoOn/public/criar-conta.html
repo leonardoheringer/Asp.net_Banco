@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>DigiBank - Criar Conta</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>DigiBank</h1>
+        <h2>Criar Conta</h2>
+        <form id="criarContaForm">
+            <input type="text" id="nome" placeholder="Nome" required />
+            <input type="text" id="cpf" placeholder="CPF" required />
+            <input type="password" id="senha" placeholder="Senha" required />
+            <button type="submit">Criar Conta</button>
+        </form>
+        <p>Já tem conta? <a href="index.html">Login</a></p>
+        <div id="message" class="message"></div>
+    </div>
+
+    <script>
+        const form = document.getElementById('criarContaForm');
+        const messageDiv = document.getElementById('message');
+
+        form.addEventListener('submit', async e => {
+            e.preventDefault();
+            messageDiv.textContent = '';
+
+            const nome = document.getElementById('nome').value.trim();
+            const cpf = document.getElementById('cpf').value.trim();
+            const senha = document.getElementById('senha').value.trim();
+
+            const res = await fetch('/api/conta/criar', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ nome, cpf, senha })
+            });
+
+            if (res.ok) {
+                const data = await res.json();
+                messageDiv.style.color = 'green';
+                messageDiv.textContent = data.mensagem + `. Conta: ${data.numeroConta} Agência: ${data.agencia}`;
+                form.reset();
+            } else {
+                const err = await res.json();
+                messageDiv.style.color = 'red';
+                messageDiv.textContent = err.erro || 'Erro ao criar conta';
+            }
+        });
+    </script>
+</body>
+</html>

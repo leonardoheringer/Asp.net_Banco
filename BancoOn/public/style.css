@@ -1,0 +1,155 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #34495e;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 8px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1.5px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #1c5980;
+}
+
+.msg {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.msg.error {
+  color: #e74c3c;
+}
+
+.msg.success {
+  color: #27ae60;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Tabela do extrato */
+#extrato-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+#extrato-table thead tr {
+  background-color: #2980b9;
+  color: white;
+}
+
+#extrato-table th,
+#extrato-table td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#extrato-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#extrato-table td.deposito {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+#extrato-table td.saque {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    width: 95%;
+  }
+
+  button {
+    font-size: 0.95rem;
+  }
+}
+td.deposito {
+  color: green;
+}
+td.saque {
+  color: red;
+}
+td.transferênciasaída {
+  color: orange;
+}
+td.transferênciaentrada {
+  color: blue;
+}

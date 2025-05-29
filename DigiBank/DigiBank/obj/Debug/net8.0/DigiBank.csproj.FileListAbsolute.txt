@@ -6,3 +6,12 @@ C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\ASP.Net_MVC\DigiBa
 C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\ASP.Net_MVC\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.RazorAssemblyInfo.cache
 C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\ASP.Net_MVC\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.RazorAssemblyInfo.cs
 C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\ASP.Net_MVC\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.sourcelink.json
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.csproj.AssemblyReference.cache
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.AssemblyInfo.cs
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.RazorAssemblyInfo.cache
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.RazorAssemblyInfo.cs
+C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Asp.net_Banco\DigiBank\DigiBank\obj\Debug\net8.0\DigiBank.sourcelink.json
