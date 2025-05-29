@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Conta>
+
+@{
+    ViewData["Title"] = "Contas do Cliente";
+    var clienteId = (int)ViewData["ClienteId"];
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" asp-route-clienteId="@clienteId" class="btn btn-primary">Nova Conta</a>
+    <a asp-controller="Clientes" asp-action="Details" asp-route-id="@clienteId"
+       class="btn btn-secondary">Voltar para Cliente</a>
+</p>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Número</th>
+            <th>Tipo</th>
+            <th>Saldo</th>
+            <th>Data Abertura</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Numero)</td>
+                <td>@Html.DisplayFor(modelItem => item.Tipo)</td>
+                <td>@item.Saldo.ToString("C")</td>
+                <td>@item.DataAbertura.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="Details" asp-route-numeroConta="@item.Numero" class="btn btn-info btn-sm">Detalhes</a>
+                    <a asp-action="Deposito" asp-route-numeroConta="@item.Numero" class="btn btn-success btn-sm">Depósito</a>
+                    <a asp-action="Saque" asp-route-numeroConta="@item.Numero" class="btn btn-warning btn-sm">Saque</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

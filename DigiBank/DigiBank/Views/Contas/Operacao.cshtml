@@ -1,0 +1,46 @@
+﻿@model OperacaoBancariaViewModel
+
+@{
+    var operacao = Model.TipoOperacao == "deposito" ? "Depósito" : "Saque";
+    ViewData["Title"] = operacao;
+}
+
+<h1>@operacao</h1>
+
+<h4>Conta: @Model.NumeroConta - @Model.NomeCliente</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Operacao">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NumeroConta" />
+            <input type="hidden" asp-for="TipoOperacao" />
+
+            <div class="form-group">
+                <label asp-for="Valor" class="control-label"></label>
+                <div class="input-group">
+                    <span class="input-group-text">R$</span>
+                    <input asp-for="Valor" class="form-control" />
+                </div>
+                <span asp-validation-for="Valor" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Confirmar" class="btn btn-primary" />
+                <a asp-action="Details" asp-route-numeroConta="@Model.NumeroConta" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function() {
+            $('#Valor').mask('#.##0,00', {reverse: true});
+        });
+    </script>
+}

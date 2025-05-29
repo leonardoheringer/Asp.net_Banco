@@ -1,0 +1,56 @@
+﻿@model ExtratoViewModel
+
+@{
+    ViewData["Title"] = "Extrato Bancário";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Conta: @Model.NumeroConta - @Model.NomeCliente</h4>
+<h5>Saldo Atual: @Model.SaldoAtual.ToString("C")</h5>
+<hr />
+
+<div class="mb-3">
+    <form method="get" class="row g-3">
+        <div class="col-md-3">
+            <label class="form-label">Data Início</label>
+            <input type="date" name="dataInicio" class="form-control" value="@Model.DataInicio.ToString("yyyy-MM-dd")" />
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Data Fim</label>
+            <input type="date" name="dataFim" class="form-control" value="@Model.DataFim.ToString("yyyy-MM-dd")" />
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary">Filtrar</button>
+        </div>
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data/Hora</th>
+            <th>Tipo</th>
+            <th>Valor</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Transacoes)
+        {
+            <tr>
+                <td>@item.Data.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@item.Tipo</td>
+                <td class="@(item.Tipo == TipoTransacao.Deposito || item.Tipo == TipoTransacao.TransferenciaRecebida ? "text-success" : "text-danger")">
+                    @(item.Tipo == TipoTransacao.Deposito || item.Tipo == TipoTransacao.TransferenciaRecebido ? "+" : "-")
+                    @item.Valor.ToString("C")
+                </td>
+                <td>@item.Descricao</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Details" asp-route-numeroConta="@Model.NumeroConta" class="btn btn-secondary">Voltar</a>
+</div>

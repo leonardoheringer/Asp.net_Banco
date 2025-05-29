@@ -1,0 +1,51 @@
+﻿@model Cliente
+
+@{
+    ViewData["Title"] = "Detalhes do Cliente";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Nome)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Nome)</dd>
+
+        <dt class="col-sm-3">CPF</dt>
+        <dd class="col-sm-9">@FormatarCPF(Model.CPF)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt class="col-sm-3">Data de Nascimento</dt>
+        <dd class="col-sm-9">@Model.DataNascimento.ToString("dd/MM/yyyy")</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Endereco)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Endereco)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Telefone)</dt>
+        <dd class="col-sm-9">@FormatarTelefone(Model.Telefone)</dd>
+
+        <dt class="col-sm-3">Data de Cadastro</dt>
+        <dd class="col-sm-9">@Model.DataCadastro.ToString("dd/MM/yyyy HH:mm")</dd>
+    </dl>
+</div>
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</div>
+
+@functions {
+    public string FormatarCPF(string cpf)
+    {
+        return Convert.ToUInt64(cpf).ToString(@"000\.000\.000\-00");
+    }
+
+    public string FormatarTelefone(string telefone)
+    {
+        if (telefone.Length == 11)
+            return long.Parse(telefone).ToString(@"(00) 00000-0000");
+        return long.Parse(telefone).ToString(@"(00) 0000-0000");
+    }
+}

@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\services\\contaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\services\\contaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\data\\digibankcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\data\\digibankcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\models\\viewmodel\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\models\\viewmodel\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\digibank.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\digibank.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\contas\\extrato.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\contas\\extrato.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\contas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\contas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\contas\\operacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\contas\\operacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\contas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\contas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\models\\viewmodel\\operacaobancariaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\models\\viewmodel\\operacaobancariaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\models\\viewmodel\\transfererenciaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\models\\viewmodel\\transfererenciaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|c:\\users\\alunos\\documents\\informatica tarde\\leonardo heringer\\asp.net_mvc\\digibank\\digibank\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8080B7C6-0AEB-496A-8740-756C2CB6DFC6}|DigiBank\\DigiBank.csproj|solutionrelative:digibank\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Services\\ClienteService.cs",
+              "RelativeToolTip": "DigiBank\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:57:11.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContaService.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Services\\ContaService.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Services\\ContaService.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Services\\ContaService.cs",
+              "RelativeToolTip": "DigiBank\\Services\\ContaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:56:59.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Models\\ViewModel\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Models\\ViewModel\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Models\\ViewModel\\ErrorViewModel.cs",
+              "RelativeToolTip": "DigiBank\\Models\\ViewModel\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:51:57.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "DigiBank\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:48:06.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DigiBankContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Data\\DigiBankContext.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Data\\DigiBankContext.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Data\\DigiBankContext.cs",
+              "RelativeToolTip": "DigiBank\\Data\\DigiBankContext.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:47:47.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\appsettings.json",
+              "RelativeDocumentMoniker": "DigiBank\\appsettings.json",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\appsettings.json",
+              "RelativeToolTip": "DigiBank\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-29T16:48:20.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Program.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Program.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Program.cs",
+              "RelativeToolTip": "DigiBank\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwv0MAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:46:26.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "DigiBank\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "DigiBank\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-29T16:46:09.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Extrato.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Contas\\Extrato.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Contas\\Extrato.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Contas\\Extrato.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Contas\\Extrato.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwDcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:45:40.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:45:17.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:45:09.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Operacao.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Contas\\Operacao.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Contas\\Operacao.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Contas\\Operacao.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Contas\\Operacao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:44:06.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Contas\\Details.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Contas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Contas\\Details.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Contas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:43:58.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Contas\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Contas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Contas\\Index.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Contas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:43:55.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Clientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Clientes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Clientes\\Details.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Clientes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:40:48.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:40:28.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DigiBank",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\DigiBank.csproj",
+              "RelativeDocumentMoniker": "DigiBank\\DigiBank.csproj",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\DigiBank.csproj",
+              "RelativeToolTip": "DigiBank\\DigiBank.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-29T16:32:22.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "DigiBank\\Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "DigiBank\\Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:39:53.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OperacaoBancariaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Models\\ViewModel\\OperacaoBancariaViewModel.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Models\\ViewModel\\OperacaoBancariaViewModel.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Models\\ViewModel\\OperacaoBancariaViewModel.cs",
+              "RelativeToolTip": "DigiBank\\Models\\ViewModel\\OperacaoBancariaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:32:23.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TransfererenciaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Models\\ViewModel\\TransfererenciaViewModel.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Models\\ViewModel\\TransfererenciaViewModel.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Models\\ViewModel\\TransfererenciaViewModel.cs",
+              "RelativeToolTip": "DigiBank\\Models\\ViewModel\\TransfererenciaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:32:23.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ContasController.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Controllers\\ContasController.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Controllers\\ContasController.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Controllers\\ContasController.cs",
+              "RelativeToolTip": "DigiBank\\Controllers\\ContasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:32:20.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DigiBank\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\Informatica Tarde\\Leonardo Heringer\\ASP.Net_MVC\\DigiBank\\DigiBank\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DigiBank\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:32:18.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

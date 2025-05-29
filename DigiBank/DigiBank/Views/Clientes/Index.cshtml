@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Cliente>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Novo Cliente</a>
+</p>
+
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Nome)</th>
+            <th>@Html.DisplayNameFor(model => model.CPF)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>@Html.DisplayNameFor(model => model.DataCadastro)</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                <td>@FormatarCPF(item.CPF)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@item.DataCadastro.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalhes</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-controller="Contas" asp-action="Index" asp-route-clienteId="@item.Id"
+                       class="btn btn-secondary btn-sm">Contas</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@functions {
+    public string FormatarCPF(string cpf)
+    {
+        return Convert.ToUInt64(cpf).ToString(@"000\.000\.000\-00");
+    }
+}
